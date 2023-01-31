@@ -283,6 +283,11 @@ nav {
   padding: 20px 10px;
 }
 
+.tecnologias{
+  font-display: flex;
+  justify-content: space-between;
+}
+
 .card1 {
   width: 30%;
   height: auto;
@@ -418,3 +423,20 @@ nav {
   }
 }
 /*Footer ends */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 10px;
+}
+
+.grid-item {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
