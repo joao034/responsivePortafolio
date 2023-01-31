@@ -101,7 +101,7 @@
 <!-- Skills section ends -->`
 
     <!-- Skills section starts -->
-    <div class="project-header" id="#proyectos">
+    <div class="project-header" id="skills">
       <h2>Skills</h2>
       <div class="container">
         <div class="card">
@@ -122,28 +122,30 @@
     </div>
     <!-- Skills section starts -->
 
-     <!-- About me section starts -->    
-     <section id="banner">
-      <div class="banner-content">
-        <img src="./img/imagen3.png" alt="Banner Photo">
-        <div class="banner-rigth">
-          <h1>Acerca de mí</h1>
-          <p>Un apasionado por el mundo de desarrollo de software. Me gusta principalmente el desarrollo web y móvil.</p>
-          <li>Frontend</li>
-          <li>Backend</li>
-          <button class="download-button">
-            <i class="fas fa-arrow-down"></i>
-            <a href="www.google.com" download="">Descargar CV</a>
-          </button>
-          
+     <!-- About me section starts -->
+     <div class="div" id="about-me">    
+      <section id="banner">
+        <div class="banner-content">
+          <img src="./img/imagen3.png" alt="Banner Photo">
+          <div class="banner-rigth">
+            <h1>Acerca de mí</h1>
+            <p>Un apasionado por el mundo de desarrollo de software. Me gusta principalmente el desarrollo web y móvil.</p>
+            <li>Frontend</li>
+            <li>Backend</li>
+            <button class="download-button">
+              <i class="fas fa-arrow-down"></i>
+              <a href="www.google.com" download="">Descargar CV</a>
+            </button>
+            
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </div>
   <!-- About me sections ends -->  
 
     
     <!-- Portfolio section starts -->
-    <div class="card1-container">
+    <div class="card1-container" id="proyectos">
       <div class="card1">
         <img src="./img/imagen3.png" alt="Image 1">
         <h2>Card 1</h2>
@@ -168,16 +170,36 @@
     <!-- Portfolio section ends -->
 
     <!-- Contact section starts -->
-    <section id="banner">
-      <div class="banner-content">
-        <img src="./img/imagen3.png" alt="Banner Photo">
-        <div class="banner-rigth">
-          <h1>Hola, soy Joao Full Stack Developer</h1>
-          <p>Un apasionado por el mundo de desarrollo de software. Me gusta principalmente el desarrollo web y móvil.</p>
+    <div class="div" id="contacto">
+      <section id="banner">
+        <div class="banner-content">
+          <img src="./img/imagen3.png" alt="Banner Photo">
+          <div class="banner-rigth">
+            <h1>Contáctame</h1>
+            <form class="responsive-form">
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required>
+              
+              <label for="message">Message:</label>
+              <textarea id="message" name="message" rows="5" required></textarea>
+              
+              <button type="submit">Submit</button>
+            </form>
         </div>
-      </div>
-    </section>
+      </section>
+    </div>
     <!-- Contact section ends -->
+
+    <!-- Footer section starts -->
+    <footer class="footer">
+      <div class="footer-container">
+        <ul class="social-media-icons">
+          <li><a href="https://www.facebook.com/joao.jacome.3745" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
+          <li><a href="instagram.com/joaojacome03/" target="_blank"><i class="fa-brands fa-instagram"></i></i></a></li>
+          <li><a href="https://www.linkedin.com/in/joaojacomedev/" target="_blank"><i class="fa-brands fa-linkedin"></i></i></a></li>
+        </ul>
+      </div>
+    </footer>
 
 </body>
 
