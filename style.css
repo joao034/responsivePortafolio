@@ -1,9 +1,17 @@
+body{
+    max-width: 1440px;
+    margin: 0 auto;
+    color: #ffffff;
+}
+
+
 /*Navbar starts */
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1em 2em;
+    background-image: linear-gradient(to top right, #0a2351, #5F9EA0);
   }
   
   ul {
@@ -19,7 +27,8 @@ nav {
   
   a {
     text-decoration: none;
-    color: #333;
+    color: #ffffff;
+    font-size: 1.2em;
   }
   
   @media (max-width: 768px) {
@@ -59,8 +68,9 @@ nav {
   #banner {
     display: flex;
     align-items: center;
-    background-color: #f7f7f7;
+    /*background-color: #f7f7f7;*/
     padding: 4em 2em;
+    background-image: linear-gradient(to top right, #0a2351, #5F9EA0);
   }
   
   .banner-content {
@@ -72,7 +82,8 @@ nav {
   
   img {
     width: 30%;
-    border-radius: 50%;
+    margin-right: 50px;
+    border-radius: 10%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
   
@@ -100,7 +111,7 @@ nav {
     }
   
     img {
-      width: 50%;
+      width: 35%;
       margin-bottom: 2em;
     }
   }
