@@ -13,7 +13,7 @@ body{
 nav {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: left;
     padding: 1em 2em;
     background-image: linear-gradient(to top right, #0a2351, #5F9EA0);
     color: #ffffff;
@@ -90,7 +90,7 @@ nav {
   }
   
   .banner-content img {
-    width: 30%;
+    width: 20%;
     margin-right: 50px;
     border-radius: 10%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -120,7 +120,7 @@ nav {
     }
   
     img {
-      width: 35%;
+      width: 50%;
       margin-bottom: 2em;
     }
   }
@@ -243,7 +243,7 @@ nav {
   }
 
   .project-header {
-    font-size: 22px;
+    font-size: 20px;
     margin-top: 10px;
     text-align: center;
   }
@@ -285,6 +285,7 @@ nav {
 
 .card1 {
   width: 30%;
+  height: auto;
   box-sizing: border-box;
   padding: 20px;
   margin-bottom: 20px;
@@ -294,8 +295,8 @@ nav {
 }
 
 .card1 img {
-  width: 50%;
-  height: auto;
+  width: 160px;
+  height: 150px;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
 }
