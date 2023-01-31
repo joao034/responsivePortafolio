@@ -436,7 +436,7 @@ nav {
   text-align: center;
 }
 
-img {
-  width: 100%;
+.grid-container img {
+  width: 80px;
   height: auto;
 }
