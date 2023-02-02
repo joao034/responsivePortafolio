@@ -3,7 +3,7 @@
 }
 
 body{
-    max-width: 1440px;
+    /*max-width: 1440px;*/
     margin: 0 auto;
     
 }
@@ -90,11 +90,10 @@ nav {
   }
   
   .banner-content img {
-    width: 200px;
-    height: 325px;
+    width: 20%;
     margin-right: 50px;
-    border-radius: 10%;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /*border-radius: 10%;*/
+    /*box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);*/
   }
 
   .banner-rigth {
@@ -283,7 +282,7 @@ nav {
   max-width: 500px;
   margin: 0 auto;
   padding: 20px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);*/
   border-radius: 5px;
   text-align: center;
 }
