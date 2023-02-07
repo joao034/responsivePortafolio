@@ -5,7 +5,6 @@
 body{
     /*max-width: 1440px;*/
     margin: 0 auto;
-    
 }
 
 /*Navbar starts */
@@ -26,8 +25,8 @@ nav {
   }
 
   .enums{
-    font-size: 20px;
     text-align: left;
+    font-size: 20px;
     list-style-image: url('./img/flecha.png');
     padding-left: 20px;
   }
@@ -148,6 +147,11 @@ nav {
     /*box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);*/
   }
 
+  .me-photo img{
+    width: 220px;
+    border-radius: 10%;
+  }
+
   .banner-rigth {
     display: flex;
     flex-direction: column;
@@ -186,12 +190,22 @@ nav {
       justify-content: center;
       align-items: center;
     }
+
+    .me-photo img{
+      margin-bottom: 2em;
+      max-width: 180px;
+      height: auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
   }
     /*Banner ends */
 
   
-  /*Projects starts */
+  /*Skills starts */
   .container {
+
     display: flex;
     flex-wrap: wrap;
   }
@@ -199,10 +213,12 @@ nav {
   .card {
     width: calc(33.33% - 20px);
     background-color: #fff;
+    color: #000;
     margin: 10px;
     text-align: center;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
+    
   }
 
   .card img{
@@ -237,13 +253,17 @@ nav {
     margin-top: 10px;
   }
 
-  .project-header {
+
+
+  .project-header{
+    
     font-size: 20px;
     margin-top: 10px;
     text-align: center;
     margin-bottom: 20px;
+    
   }
-  /*Projects ends */
+  /*Skills ends */
   
   /*Button starts */
   .download-button {
@@ -271,8 +291,10 @@ nav {
 
   /*Button ends */
 
-  /*Portfolio starts */
+  /*Projects starts */
   .card1-container {
+    background-image: linear-gradient(to top right, #0a2351, #5F9EA0);
+    color: #ffffff;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -331,6 +353,7 @@ nav {
     width: 100%;
   }
 }
+  /*Projects ends */
 
 /*Contact starts */
 .responsive-form {
@@ -382,7 +405,7 @@ nav {
 /*Footer starts */
 .footer {
   background-color: #333;
-  color: #fff;
+  color: #5F9EA0;
   text-align: center;
   padding: 20px 0;
 }
@@ -410,7 +433,7 @@ nav {
 
 @media (max-width: 767px) {
   .social-media-icons {
-    flex-direction: column;
+    flex-direction: row;
   }
 
   .social-media-icons li {
