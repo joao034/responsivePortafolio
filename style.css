@@ -24,13 +24,21 @@ nav {
     margin: 0;
     padding: 0;
   }
+
+  .enums{
+    font-size: 20px;
+    text-align: left;
+    list-style-image: url('./img/flecha.png');
+    padding-left: 20px;
+  }
   
   li {
     margin: 0 1em;
   }
 
-  li a.active, li a:hover{
+  a:hover{
     transition: .5s;
+    color: #9b9b9b;
   }
 
   .checkbtn{
@@ -56,6 +64,10 @@ nav {
   @media (max-width: 768px) {
     .checkbtn {
       display: block;
+    }
+
+    .enums {
+      font-size: 18px;
     }
 
     ul {
@@ -92,7 +104,7 @@ nav {
     border: none;
     cursor: pointer;
     display: none;
-    font-size: 1.5em;
+    font-size: 1.3em;
     margin: 0;
     outline: none;
     padding: 0;
